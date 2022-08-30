@@ -1,0 +1,70 @@
+// Mobile
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .photos {
+    display: none;
+  }
+}
+
+// Tablet
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .photos {
+    display: none;
+  }
+}
+
+// Desktop
+
+@media screen and (min-width: 1200px) {
+  .photos {
+    background-color: $first-background-color;
+    display: inline;
+    color: $first-text-color;
+
+    &__head {
+      text-align: center;
+      font-weight: 700;
+      font-size: 36px;
+      padding-bottom: 50px;
+      margin-left: 230px;
+    }
+
+    &__photo {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    &__photo:first-child {
+      gap: 0;
+    }
+
+    &--label {
+      width: 370px;
+      height: 294px;
+      position: relative;
+    }
+
+    &--text {
+      width: 370px;
+      height: 70px;
+      position: absolute;
+      background: #2f303acc;
+      margin-top: 224px;
+    }
+
+    &--description {
+      font-family: "Roboto";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $third-text-color;
+      padding-top: 27px;
+    }
+  }
+}

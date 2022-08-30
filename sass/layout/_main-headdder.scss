@@ -1,0 +1,273 @@
+// Mobile
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .main-background {
+    width: 480px;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_mobile@2x.jpg);
+    background-size: 480px 400px;
+    max-width: 767px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main__headder {
+    background-color: $second-background-color;
+    align-items: center;
+  }
+
+  .main__container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-background {
+    width: 480px;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_mobile.jpg);
+    background-size: 480px 400px;
+    max-width: 767px;
+  }
+
+  .main--text {
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $third-text-color;
+    padding: 118px 58px 30px 57px;
+  }
+
+  .main--selector {
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: $button-color;
+    border-color: $button-color;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: $third-text-color;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 0px 140px 118px 140px;
+
+    &:hover,
+    &:focus {
+      color: $third-text-color;
+      background: $button-color;
+      transition: color 250ms, background 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+// Tablet
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+  .main-background {
+    width: 768px;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_tablet@2x.jpg);
+    background-size: 768px 400px;
+    max-width: 1199px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main__headder {
+    background-color: $second-background-color;
+    align-items: center;
+  }
+
+  .main__container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-background {
+    width: 768px;
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_tablet.jpg);
+    background-size: 768px 400px;
+    max-width: 1199px;
+  }
+
+  .main--text {
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $third-text-color;
+    padding: 118px 201px 30px 202px;
+  }
+
+  .main--selector {
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: $button-color;
+    border-color: $button-color;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: $third-text-color;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 0px 284px 118px 284px;
+
+    &:hover,
+    &:focus {
+      color: $third-text-color;
+      background: $button-color;
+      transition: color 250ms, background 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+// Desktop
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .main-background {
+    width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_desktop@2x.jpg);
+    background-size: 1600px 600px;
+
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main__container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-background {
+    width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(../images/main_header/background_desktop.jpg);
+    background-size: 1600px 600px;
+
+    margin: auto;
+  }
+
+  .main--text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $third-text-color;
+    padding: 200px 452px 30px 452px;
+  }
+
+  .main--selector {
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    background-color: $button-color;
+    border-color: $button-color;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: $third-text-color;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 30px 700px 200px 700px;
+    &:hover,
+    &:focus {
+      color: $third-text-color;
+      background: $button-color;
+      transition: color 250ms, background 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+// .main--text {
+//   font-weight: 900;
+//   font-size: 44px;
+//   line-height: 60px;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
+//   text-align: center;
+//   color: $third-text-color;
+//   padding: 200px 452px 30px 452px;
+// }
+
+// .main--selector {
+//   font-style: normal;
+//   text-align: center;
+//   align-items: center;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 30px;
+//   letter-spacing: 0.06em;
+//   background-color: $button-color;
+//   border-color: $button-color;
+//   border-radius: 4px;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   color: $third-text-color;
+//   cursor: pointer;
+//   width: 200px;
+//   height: 50px;
+//   margin: 30px 700px 200px 700px;
+
+//   }
+// }

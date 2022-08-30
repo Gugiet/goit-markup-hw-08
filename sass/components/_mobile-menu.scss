@@ -1,0 +1,114 @@
+// .js-menu-container {
+//   width: 100vw;
+//   height: 100vh;
+//   border: none;
+//   padding-left: 40px;
+//   z-index: 999;
+//   background: $first-background-color;
+//   transform: translateX(0);
+//   visibility: hidden;
+//   transition-property: transform, visibility;
+//   transition-duration: 250ms;
+//   transition-timing-function: ease-in-out;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+// }
+// .js-menu-container .is-open {
+//   transform: translateX(100%);
+// }
+// .is-open {
+//   visibility: visible;
+// }
+// .js-close-menu {
+//   background: $first-background-color;
+//   width: 24px;
+//   height: 16px;
+//   margin-top: 21px;
+//   margin-left: 396px;
+//   margin-right: 25.33px;
+// }
+// .js-open-menu {
+//   background: $first-background-color;
+//   height: 60px;
+//   padding-top: 10px;
+//   padding-bottom: 10px;
+// }
+// .menu__button-icon {
+//   fill: $first-background-color;
+//   border: none;
+//   width: 24px;
+//   height: 16px;
+//   margin-top: 21px;
+//   margin-left: 396px;
+//   margin-right: 25.33px;
+//   &:hover,
+//   &:focus {
+//     fill: $button-color;
+//   }
+// }
+// .mobile-nav__item {
+//   display: inline-block;
+//   font-family: Roboto;
+//   font-weight: 500;
+//   font-size: 40px;
+//   line-height: 1.175;
+//   text-align: center;
+//   letter-spacing: 0.02em;
+//   color: $first-text-color;
+//   &:hover,
+//   &:focus {
+//     color: $fourth-text-color;
+//   }
+// }
+// .mobile-nav__item:first-child {
+//   padding-top: 18px;
+// }
+
+// .mobile-nav__item:nth-child(3) {
+//   padding-top: 36px;
+// }
+
+// .menu__contact {
+//   display: inline-block;
+//   font-family: Roboto;
+//   font-weight: 500;
+//   letter-spacing: 0.02em;
+
+//   &--tel {
+//     font-size: 34px;
+//     line-height: 1.176;
+//     color: $fourth-text-color;
+//     padding-top: 302px;
+//   }
+//   &--mail {
+//     font-size: 24px;
+//     line-height: 1.167;
+//     color: $second-text-color;
+//     padding-top: 32px;
+//     padding-bottom: 64px;
+//   }
+// }
+
+// .menu__socials {
+//   display: flex;
+//   flex-direction: row;
+// }
+// .menu__socials--item {
+//   font-family: Roboto;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 18px;
+//   line-height: 1.222;
+//   letter-spacing: 0.02em;
+//   color: $fourth-text-color;
+//   padding-left: 10px;
+//   padding-right: 10px;
+//   border-right: 1px solid #21212133;
+//   &--first {
+//     padding-left: 0px;
+//   }
+//   &--last {
+//     border-right: none;
+//   }
+// }

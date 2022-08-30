@@ -1,0 +1,22 @@
+$first-text-color: #212121;
+$second-text-color: #757575;
+$third-text-color: #ffffff;
+$fourth-text-color: #2196f3;
+$fifth-text-color: #000;
+$first-background-color: #fff;
+$second-background-color: #2f303a;
+$button-color: #2196f3;
+$selectors-background-colour: #f5f4fa;
+$socialmedia: rgba(255, 255, 255, 0.1);
+$mobile-menu-icon-color: #212121;
+
+.index.html::after {
+  text-decoration: dashed;
+}
+body {
+  font-family: Roboto;
+  line-height: normal;
+  box-sizing: border-box;
+  display: block;
+  color: $second-text-color;
+}

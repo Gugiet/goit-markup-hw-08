@@ -1,0 +1,56 @@
+// Logo up
+.logo-up {
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 26px;
+  text-decoration: none;
+  text-align: left;
+  width: 145px;
+  height: 31px;
+
+  &:hover {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 26px;
+    text-decoration: none;
+  }
+
+  &__first {
+    color: $fourth-text-color;
+    font-weight: 800;
+    font-size: 26px;
+  }
+  &__second {
+    color: $fifth-text-color;
+    font-weight: 800;
+    font-size: 26px;
+  }
+}
+
+// // Logo down
+
+// .logo-down {
+//   font-family: Raleway;
+//   font-weight: 700;
+//   font-size: 26px;
+//   text-decoration: none;
+
+//   &:hover {
+//     font-family: Raleway;
+//     font-weight: 700;
+//     font-size: 26px;
+//     text-decoration: none;
+//   }
+
+//   &__first {
+//     color: $fourth-text-color;
+//     font-weight: 700;
+//     font-size: 26px;
+//   }
+
+//   &__second {
+//     color: $third-text-color;
+//     font-weight: 700;
+//     font-size: 26px;
+//   }
+// }

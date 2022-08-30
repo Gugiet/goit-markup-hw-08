@@ -1,0 +1,56 @@
+// .client {
+//   padding-top: 0px;
+
+//   &__title {
+//     font-family: Roboto;
+//     font-size: 36px;
+//     font-weight: 700;
+//     line-height: 42px;
+//     text-align: center;
+//     color: $fifth-text-color;
+//     padding-bottom: 50px;
+//   }
+//   &__list {
+//     display: flex;
+//     justify-content: space-between;
+//     gap: 30px;
+//   }
+
+//   &--box {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border: solid #afb1b8 1px;
+//     border-radius: 4px;
+//     width: 170px;
+//     height: 92px;
+
+//     &:hover svg {
+//       fill: #2196f3;
+//       cursor: pointer;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     }
+
+//     &:hover {
+//       border: solid #2196f3 1px;
+//       cursor: pointer;
+//       transition-duration: 250ms;
+//       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     }
+//   }
+
+//   &--window {
+//     display: flex;
+//     justify-content: center;
+//     align-self: center;
+//     fill: #afb1b8;
+//   }
+
+//   &--logo {
+//     display: flex;
+//     justify-content: center;
+//     align-self: center;
+//     fill: #afb1b8;
+//   }
+// }

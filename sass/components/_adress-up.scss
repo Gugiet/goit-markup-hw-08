@@ -1,0 +1,211 @@
+// Mobile
+@media screen and (min-width: 320px) and (max-width: 767px) {
+}
+// Tablet
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .address-up li {
+    display: inline;
+  }
+
+  .address-up > .email {
+    fill: $fourth-text-color;
+    color: $fourth-text-color;
+  }
+
+  .address-up {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+
+    &__mail {
+      color: $second-text-color;
+      text-decoration: none;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        text-align: right;
+        color: #2196f3;
+        fill: #2196f3;
+      }
+    }
+
+    &__tel {
+      color: $second-text-color;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: baseline;
+    }
+  }
+
+  .contact-info {
+    width: 26px;
+    height: 12px;
+    padding-right: 10px;
+    fill: $second-text-color;
+  }
+
+  .address-up :hover {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+    color: $fourth-text-color;
+    fill: $fourth-text-color;
+  }
+
+  .address-up :hover .contact-info {
+    fill: $fourth-text-color;
+  }
+  .smartphone {
+    width: 20px;
+    height: 16px;
+    padding-right: 10px;
+    fill: $second-text-color;
+  }
+}
+// Desktop
+@media screen and (min-width: 1200px) {
+  .address-up li {
+    display: inline;
+  }
+
+  .address-up > .email {
+    fill: $fourth-text-color;
+    color: $fourth-text-color;
+  }
+
+  .address-up {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+
+    &__mail {
+      color: $second-text-color;
+      text-decoration: none;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        text-align: right;
+        color: #2196f3;
+        fill: #2196f3;
+      }
+    }
+
+    &__tel {
+      color: $second-text-color;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .contact-info {
+    width: 26px;
+    height: 12px;
+    padding-right: 10px;
+    fill: $second-text-color;
+  }
+
+  .address-up :hover {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    color: $fourth-text-color;
+    fill: $fourth-text-color;
+  }
+
+  .address-up :hover .contact-info {
+    fill: $fourth-text-color;
+  }
+  .smartphone {
+    width: 20px;
+    height: 16px;
+    padding-right: 10px;
+    fill: $second-text-color;
+  }
+}
+
+// .address-up li {
+//   display: inline;
+// }
+
+// .address-up > .email {
+//   fill: $fourth-text-color;
+//   color: $fourth-text-color;
+// }
+
+// .address-up {
+//   font-weight: 500;
+//   font-size: 14px;
+//   font-style: normal;
+//   text-align: left;
+
+//   &__mail {
+//     color: $second-text-color;
+//     text-decoration: none;
+//     padding-right: 30px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     &:hover {
+//       font-weight: 500;
+//       font-size: 14px;
+//       text-decoration: none;
+//       text-align: right;
+//       color: #2196f3;
+//       fill: #2196f3;
+//     }
+//   }
+
+//   &__tel {
+//     color: $second-text-color;
+//     text-decoration: none;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+// }
+
+// .contact-info {
+//   width: 26px;
+//   height: 12px;
+//   padding-right: 10px;
+//   fill: $second-text-color;
+// }
+
+// .address-up :hover {
+//   font-weight: 500;
+//   font-size: 14px;
+//   text-decoration: none;
+//   text-align: right;
+//   color: $fourth-text-color;
+//   fill: $fourth-text-color;
+// }
+
+// .address-up :hover .contact-info {
+//   fill: $fourth-text-color;
+// }
+// .smartphone {
+//   width: 20px;
+//   height: 16px;
+//   padding-right: 10px;
+//   fill: $second-text-color;
+// }

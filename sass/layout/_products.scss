@@ -1,0 +1,74 @@
+// .products {
+//   &__list {
+//     display: flex;
+//     align-content: space-between;
+//     flex-wrap: wrap;
+//     flex-basis: calc((100% - 60px) / 3);
+//     gap: 30px;
+//     align-items: center;
+//   }
+
+//   &__item {
+//     background-color: $first-background-color;
+//     border-bottom: 1px solid #eeeeee;
+
+//     &:hover,
+//     &:focus {
+//       border-bottom: 1px solid #eeeeee;
+//       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+//         0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+//     }
+//   }
+
+//   &--box {
+//     position: relative;
+//     width: 370px;
+//     overflow: hidden;
+//   }
+
+//   &__title {
+//     font-size: 18px;
+//     font-weight: 700;
+//     color: $first-text-color;
+//     padding-top: 20px;
+//     padding-left: 24px;
+//   }
+
+//   &__decription {
+//     font-size: 16px;
+//     font-weight: 400;
+//     color: $second-text-color;
+//     padding-left: 24px;
+//     padding-top: 4px;
+//     padding-bottom: 20px;
+//   }
+// }
+
+// .products--overflow {
+//   width: 370px;
+//   height: 294px;
+//   background-color: rgba(33, 150, 243, 0.9);
+//   position: absolute;
+//   padding-top: 49px;
+//   padding-left: 24px;
+//   transform: translate(0, 101%);
+//   transition-property: transform;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .products--box:hover .products--overflow {
+//   transform: translate(0, 0%);
+// }
+
+// .products--box:focus .products--overflow {
+//   transform: translate(0, 0);
+// }
+
+// .products--overflow > p {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 28px;
+//   color: $third-text-color;
+// }
