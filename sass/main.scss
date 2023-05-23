@@ -1,0 +1,25 @@
+@use "utils/variables";
+@use "components/containers";
+
+// Header and Footer
+@use "components/page-header";
+@use "components/page-footer-left";
+@use "components/page-footer-mid";
+@use "components/page-footer-right";
+
+// Agency
+@use "components/button-header";
+@use "components/lorem-images";
+@use "components/lorem-descriptions";
+@use "components/photos";
+@use "components/team";
+@use "components/team-socials";
+@use "components/clients";
+
+// Modal
+@use "components/modal";
+@use "components/modal-view";
+
+// Portfolio
+@use "components/selectors";
+@use "components/products";

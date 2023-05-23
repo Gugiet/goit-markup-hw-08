@@ -1,0 +1,43 @@
+.photos {
+  background-color: var(--first-background-color);
+  display: inline;
+  color: var(--first-text-color);
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.3px;
+    color: var(--first-text-color);
+    padding-bottom: 50px;
+  }
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+
+  &__label {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    background: #2f303acc;
+    margin-top: 224px;
+  }
+
+  &__descrition {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+    padding-top: 27px;
+  }
+}

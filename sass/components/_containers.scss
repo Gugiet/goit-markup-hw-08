@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--second-text-color);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ipsum_background .section {
+  padding-bottom: 0px;
+}
+
+.team-background {
+  background-color: var(--background-colour);
+}
+
+// Footers boxes
+.section_footer {
+  background-color: var(--second-background-color);
+}
+
+.lower-line {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.middle-column {
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 86px;
+  margin-left: 78px;
+}
+// End of footers boxes

@@ -1,0 +1,44 @@
+.logo-down {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+
+  &__first {
+    color: var(--fourth-text-color);
+  }
+
+  &__second {
+    color: var(--third-text-color);
+  }
+}
+
+.adress-down {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.91;
+  color: var(--third-text-color);
+  padding-top: 20px;
+}
+
+.footer-contact {
+  &__email {
+    font-size: 14px;
+    line-height: 1.91;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 9px;
+  }
+
+  &__tel {
+    font-size: 14px;
+    line-height: 1.91;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 9px;
+  }
+}

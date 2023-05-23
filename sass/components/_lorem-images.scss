@@ -1,0 +1,11 @@
+.lorem-images {
+  display: flex;
+  list-style: none;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__icon {
+    align-items: center;
+  }
+}
