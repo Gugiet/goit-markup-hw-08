@@ -36,6 +36,7 @@ header {
 .nav {
   display: flex;
   align-items: center;
+  visibility: hidden;
 
   & ul {
     font-weight: 500;
@@ -87,7 +88,9 @@ header {
 }
 
 /* Contact details */
-
+.contact-details {
+  visibility: hidden;
+}
 .email-icon {
   width: 26px;
   height: 12px;

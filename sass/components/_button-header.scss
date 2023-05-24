@@ -4,15 +4,15 @@
       rgba(47, 48, 58, 40%) 100%,
       rgba(47, 48, 58, 40%) 100%
     ),
-    url(../images/Background.jpg);
+    url(/images/Background-mobile@1x.jpg);
   background-color: var(--second-background-color);
   text-align: center;
-  padding: 200px 0;
+  padding: 118px 0;
 
   &__description {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     color: var(--third-text-color);
@@ -33,5 +33,22 @@
     color: var(--third-text-color);
     cursor: pointer;
     padding: 10px 41px 10px 42px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .button {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 40%) 100%,
+        rgba(47, 48, 58, 40%) 100%
+      ),
+      url(/images/Background-mobile@2x.jpg);
+    background-color: var(--second-background-color);
+    text-align: center;
+    padding: 118px 0;
   }
 }

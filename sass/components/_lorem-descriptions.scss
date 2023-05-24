@@ -1,15 +1,23 @@
 .lorem {
   background-color: var(--first-background-color);
+  display: block;
+  justify-content: center;
+  padding-top: 30px;
 
-  & ul {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
-    margin: 0;
+  &__icon {
+    list-style: none;
+    padding-bottom: 30px;
   }
 
-  & li {
-    list-style: none;
+  &__icon--image {
+    height: 120px;
+    width: 450px;
+    background-color: var(--background-colour);
+
+    & svg {
+      align-items: center;
+      margin: auto;
+    }
   }
 
   &__ipsum-main {
@@ -18,9 +26,10 @@
     line-height: 1.14;
     letter-spacing: 0.3px;
     color: var(--first-text-color);
-    display: inline;
+    display: block;
     list-style: none;
     text-align: center;
+    padding-top: 30px;
   }
 
   &__ipsum-secondarry {

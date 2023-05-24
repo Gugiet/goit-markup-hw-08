@@ -1,3 +1,11 @@
 {
   "livePreview.defaultPreviewPath": "/index.html"
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "./css",
+      "savePathReplacementPairs": null
+    }
+  ]
 }
