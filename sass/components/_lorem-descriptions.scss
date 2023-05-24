@@ -10,13 +10,12 @@
   }
 
   &__icon--image {
-    height: 120px;
-    width: 450px;
+    display: flex;
+    align-items: center;
     background-color: var(--background-colour);
 
     & svg {
-      align-items: center;
-      margin: auto;
+      margin: auto auto;
     }
   }
 
