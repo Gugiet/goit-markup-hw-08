@@ -10,13 +10,10 @@
   }
 
   &__icon--image {
+    background-color: var(--background-colour);
     display: flex;
     align-items: center;
-    background-color: var(--background-colour);
-
-    & svg {
-      margin: auto auto;
-    }
+    padding-left: 90px;
   }
 
   &__ipsum-main {
