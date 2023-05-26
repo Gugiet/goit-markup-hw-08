@@ -1,6 +1,7 @@
 @media (max-width: 767px) {
   .menu {
     display: none;
+    visibility: hidden;
   }
 }
 
@@ -38,6 +39,7 @@
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
+    visibility: hidden;
   }
 }
 
