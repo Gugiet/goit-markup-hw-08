@@ -19,7 +19,7 @@
     }
 
     & input {
-      width: 448px;
+      width: 370px;
       height: 40px;
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
@@ -31,7 +31,7 @@
       font-size: 12px;
       line-height: 1.16;
       height: 120px;
-      width: 448px;
+      width: 370px;
       resize: none;
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
@@ -71,6 +71,22 @@
     position: absolute;
   }
 
+  &__form-agreement {
+    display: flex;
+    margin: 20px 0px 30px 0px;
+    align-items: center;
+
+    & input {
+      // margin-right: 8px;
+      align-items: center;
+
+      &:hover,
+      :focus {
+        cursor: pointer;
+      }
+    }
+  }
+
   &__agreement {
     width: 16px;
     height: 15px;
@@ -80,7 +96,7 @@
     margin-right: 8px;
 
     &:hover,
-    :focus-within {
+    &:focus-within {
       border-color: #2196f3;
     }
   }
@@ -88,8 +104,8 @@
   &__agree-icon {
     position: relative;
     z-index: 100;
-    width: 17px;
-    height: 16px;
+    width: 16px;
+    height: 15px;
     border-radius: 3px;
     transform: translate(-13%, 150%);
     opacity: 0;
@@ -98,8 +114,8 @@
 
   &__agree-text {
     display: flex;
-    justify-content: center;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.17;
     color: var(--second-text-color);
   }
 
@@ -129,24 +145,11 @@
     }
   }
 
-  &__form-agreement {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0px 30px 0px;
-
-    & input {
-      margin-right: 8px;
-      align-items: center;
-
-      &:hover,
-      :focus {
-        cursor: pointer;
-      }
-    }
-  }
-
   &__link {
-    font-size: 14px;
+    display: flex;
+    text-align: start;
+    font-size: 12px;
+    line-height: 1.17;
     color: var(--second-text-color);
     color: #2196f3;
     text-decoration: underline;
@@ -157,6 +160,10 @@
       cursor: pointer;
     }
   }
+}
+
+.space {
+  padding-left: 5px;
 }
 
 .input-box:focus-within {
@@ -182,10 +189,6 @@
       opacity: 1;
     }
   }
-}
-
-.space {
-  padding-left: 5px;
 }
 
 .is-hidden {

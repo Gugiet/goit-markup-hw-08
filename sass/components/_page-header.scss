@@ -6,18 +6,19 @@ header {
   background-color: var(--first-background-color);
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   /* Web Studio */
   &__logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: inline;
     text-align: left;
 
     &--up {
       font-family: Raleway;
       font-weight: 700;
-      font-size: 26px;
-      letter-spacing: 0.3px;
+      font-size: 24px;
+      line-height: 1.17;
       text-decoration: none;
     }
   }
@@ -34,7 +35,7 @@ header {
 /* Navigation Links */
 
 .nav {
-  display: flex;
+  display: none;
   align-items: center;
   visibility: hidden;
 
@@ -89,6 +90,7 @@ header {
 
 /* Contact details */
 .contact-details {
+  display: none;
   visibility: hidden;
 }
 .email-icon {

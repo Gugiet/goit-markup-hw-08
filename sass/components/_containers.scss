@@ -47,19 +47,28 @@ img {
 .lower-line {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
+  display: block;
+}
+
+.left_section {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 .middle-column {
+  display: block;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 .right-section {
+  display: block;
   justify-content: center;
   align-items: center;
-  width: 570px;
-  height: 86px;
-  margin-left: 78px;
 }
 // End of footers boxes
