@@ -41,21 +41,6 @@
             </svg>
           </button>
 
-          <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
-              <svg class="icon-close">
-                <use href="images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-
-            <ul class="mobile-menu">
-              <li><a href="index.html" class="agency active">Agencja</a></li>
-              <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-              <li><a href="/kontakt" class="contact">Kontakt</a></li>
-              <li><a href="" class="link">Career</a></li>
-            </ul>
-          </div>
-
           <!-- Nawigacja do innych stron -->
 
           <div class="nav">
@@ -673,6 +658,66 @@
         </div>
       </div>
     </div>
+
+    <!-- Mobilna Nawigacja -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="icon-close">
+          <use href="images/icons.svg#icon-mobile-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="index.html" class="link active-mobile">Agencja</a></li>
+        <li><a href="portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="/kontakt" class="link">Kontakt</a></li>
+      </ul>
+
+      <ul class="mobile-contact">
+        <li>
+          <a href="tel:+48111111111" class="mobile-contact__phone"
+            >+48 111 111 111</a
+          >
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mobile-contact__email"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-socials">
+        <li class="mobile-socials__link">
+          <a href="#" class="mobile-socials__link--socials">Instagram</a>
+        </li>
+        <li class="mobile-socials__line">
+          <svg class="line" width="1" height="22">
+            <use href="images/icons.svg#icon-mobile-line"></use>
+          </svg>
+        </li>
+        <li class="mobile-socials__link">
+          <a href="#" class="mobile-socials__link--socials">Twitter</a>
+        </li>
+        <li class="mobile-socials__line">
+          <svg class="line" width="1" height="22">
+            <use href="images/icons.svg#icon-mobile-line"></use>
+          </svg>
+        </li>
+        <li class="mobile-socials__link">
+          <a href="#" class="mobile-socials__link--socials">Facebook</a>
+        </li>
+        <li class="mobile-socials__line">
+          <svg class="line" width="1" height="22">
+            <use href="images/icons.svg#icon-mobile-line"></use>
+          </svg>
+        </li>
+        <li class="mobile-socials__link">
+          <a href="#" class="mobile-socials__link--socials">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
