@@ -1,7 +1,7 @@
 .products {
   &__list {
     display: flex;
-    align-content: space-between;
+    align-content: center;
     flex-wrap: wrap;
     flex-basis: calc((100% - 60px) / 3);
     gap: 30px;

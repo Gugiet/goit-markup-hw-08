@@ -2,12 +2,14 @@
 header {
   border-bottom: 1px solid #ececec;
 }
+
+/* Web Studio */
+
 .header {
   background-color: var(--first-background-color);
   display: flex;
   justify-content: space-between;
 
-  /* Web Studio */
   &__logo {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -24,6 +26,21 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    background-color: var(--first-background-color);
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+      padding-top: 26px;
+      padding-bottom: 26px;
+      display: inline;
+      text-align: left;
+    }
+  }
+}
+
 .web {
   color: var(--fourth-text-color);
 }
@@ -34,24 +51,35 @@ header {
 
 /* Navigation Links */
 
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+    align-items: center;
+    visibility: hidden;
+  }
+}
+
 .nav {
-  display: none;
+  display: flex;
   align-items: center;
-  visibility: hidden;
 
   & ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     word-spacing: 46px;
-    display: inline;
+    display: flex;
     padding-left: 93px;
   }
 
   &__list li {
     display: inline;
     text-decoration: none;
+  }
+
+  &__list li:nth-child(n + 2) {
+    padding-left: 60px;
   }
 
   &__list a {
@@ -89,14 +117,21 @@ header {
 }
 
 /* Contact details */
-.contact-details {
-  display: none;
-  visibility: hidden;
+
+@media screen and (max-width: 767px) {
+  .contact-details {
+    display: none;
+    visibility: hidden;
+  }
 }
+
+.contact-details {
+  display: flex;
+}
+
 .email-icon {
   width: 26px;
   height: 12px;
-  padding-right: 10px;
   fill: var(--second-text-color);
 }
 
@@ -109,22 +144,26 @@ header {
 
 .contact-details {
   font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.3px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.2px;
   text-align: right;
-  display: flex;
+  display: block;
   align-items: center;
-  padding-left: 318px;
+  padding: 21px 0px 21px 101px;
 
   & a {
     display: flex;
     align-items: center;
   }
 
+  & a:nth-child(1) {
+    padding-bottom: 10px;
+  }
+
   &__email {
     color: var(--second-text-color);
     text-decoration: none;
-    margin-right: 50px;
     fill: var(--second-text-color);
     &:hover,
     &:focus {

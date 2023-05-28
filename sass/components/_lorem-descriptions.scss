@@ -37,3 +37,60 @@
     padding-top: 10px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .lorem-box {
+    display: flex;
+  }
+
+  .lorem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-content: space-between;
+    gap: 30px;
+    list-style: none;
+    background-color: var(--first-background-color);
+    max-width: 354px;
+
+    &__icon {
+      display: block;
+    }
+
+    &__icon--image {
+      background-color: var(--background-colour);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      max-height: 120px;
+      padding-left: 42px;
+      padding-right: 42px;
+
+      & svg {
+        max-width: 270px;
+      }
+    }
+
+    &__ipsum-main {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.3px;
+      color: var(--first-text-color);
+      display: block;
+      list-style: none;
+      text-align: left;
+    }
+
+    &__ipsum-secondarry {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.3px;
+      text-decoration: none;
+      text-align: left;
+      padding-top: 10px;
+    }
+  }
+}
