@@ -28,15 +28,18 @@ header {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
-    background-color: var(--first-background-color);
-    display: flex;
-    justify-content: space-between;
-
     &__logo {
       padding-top: 26px;
       padding-bottom: 26px;
-      display: inline;
-      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    &__logo {
+      padding-top: 26px;
+      padding-bottom: 26px;
     }
   }
 }
@@ -70,7 +73,7 @@ header {
     letter-spacing: 0.2px;
     word-spacing: 46px;
     display: flex;
-    padding-left: 93px;
+    padding-left: 83px;
   }
 
   &__list li {
@@ -92,6 +95,11 @@ header {
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav ul {
+    padding-left: 93px;
   }
 }
 
@@ -125,9 +133,9 @@ header {
   }
 }
 
-.contact-details {
-  display: flex;
-}
+// .contact-details {
+//   display: flex;
+// }
 
 .email-icon {
   width: 26px;
@@ -140,6 +148,16 @@ header {
   height: 16px;
   padding-right: 10px;
   fill: var(--second-text-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .email-icon {
+    padding-right: 10px;
+  }
+
+  .tel-icon {
+    padding-right: 10px;
+  }
 }
 
 .contact-details {
@@ -157,8 +175,10 @@ header {
     align-items: center;
   }
 
-  & a:nth-child(1) {
-    padding-bottom: 10px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    & a:nth-child(1) {
+      padding-bottom: 10px;
+    }
   }
 
   &__email {
@@ -197,6 +217,22 @@ header {
       transition-property: color, transform;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-details {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-left: 318px;
+
+    &__email {
+      margin-right: 50px;
     }
   }
 }

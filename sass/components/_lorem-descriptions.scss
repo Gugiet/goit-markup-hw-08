@@ -39,10 +39,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .lorem-box {
-    display: flex;
-  }
-
   .lorem {
     display: flex;
     align-content: space-between;
@@ -67,6 +63,27 @@
       & svg {
         max-width: 270px;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lorem {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 0;
+
+    &__icon {
+      list-style: none;
+      max-width: 270px;
+
+      &--image {
+        padding-left: 0;
+      }
+    }
+    &__ipsum-main {
+      text-align: left;
     }
   }
 }
