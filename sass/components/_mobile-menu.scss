@@ -33,6 +33,9 @@
   &:hover,
   &:focus {
     fill: var(--button-color);
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -40,12 +43,17 @@
   .menu-toggle {
     display: none;
     visibility: hidden;
+    margin-top: 21px;
+    margin-right: 25.33px;
+    &:hover,
+    &:focus {
+      color: var(--button-color);
+      fill: var(--button-color);
+      transition-property: color, transform;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
-}
-
-.menu-toggle:hover,
-.menu-toggle:focus {
-  fill: var(--button-color);
 }
 
 .menu-container {
