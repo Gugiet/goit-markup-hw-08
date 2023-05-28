@@ -65,12 +65,25 @@ img {
 
 .ipsum_background .section {
   padding-bottom: 0px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem-box {
     max-width: 768px;
     display: flex;
+  }
+
+  .ipsum_background .section {
+    padding-bottom: 0px;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ipsum_background .section {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -127,6 +140,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .middle-column {
     padding-left: 144px;
+    padding-bottom: 102px;
   }
 }
 
@@ -139,6 +153,7 @@ img {
 @media screen and (min-width: 1200px) {
   .lower-line {
     display: flex;
+    align-items: baseline;
   }
 
   .left_section {
