@@ -59,6 +59,12 @@ img {
   display: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .photo-backgroung {
+    display: block;
+  }
+}
+
 .team-background {
   background-color: var(--background-colour);
 }
