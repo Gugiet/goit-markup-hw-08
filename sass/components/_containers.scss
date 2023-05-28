@@ -101,12 +101,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .lower-line {
-    display: flex;
-  }
-}
-
 .left_section {
   display: block;
   align-items: center;
@@ -134,4 +128,34 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 1200px) {
+  .lower-line {
+    display: flex;
+  }
+
+  .left_section {
+    display: block;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  .middle-column {
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+    padding-left: 70px;
+  }
+
+  .right-section {
+    display: block;
+    margin-left: 78px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+}
+
 // End of footers boxes
