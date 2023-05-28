@@ -9,18 +9,20 @@ header {
   background-color: var(--first-background-color);
   display: flex;
   justify-content: space-between;
+  height: 28px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 
   &__logo {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    display: inline;
+    display: flex;
+    align-items: center;
     text-align: left;
 
     &--up {
       font-family: Raleway;
       font-weight: 700;
       font-size: 24px;
-      line-height: 1.17;
+      line-height: 1.16;
       text-decoration: none;
     }
   }

@@ -18,13 +18,13 @@
 }
 
 .menu-toggle {
-  min-height: 40px;
+  max-height: 40px;
   min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px 15px 10px 284px;
-  padding: 12px 8px;
+  // padding: 12px 8px;
   cursor: pointer;
   background-color: var(--first-background-color);
   border: none;
