@@ -70,6 +70,17 @@ img {
   display: block;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .lower-line {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .left_section {
   display: block;
   align-items: center;
@@ -84,6 +95,12 @@ img {
   justify-content: center;
   align-items: center;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .middle-column {
+    padding-left: 144px;
+  }
 }
 
 .right-section {
