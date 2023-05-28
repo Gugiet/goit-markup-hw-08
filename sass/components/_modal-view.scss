@@ -199,3 +199,37 @@
   visibility: hidden;
   pointer-events: none;
 }
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    & input {
+      width: 448px;
+    }
+
+    &__form-item {
+      & textarea {
+        width: 448px;
+      }
+    }
+
+    &__title {
+      display: block;
+      text-align: center;
+    }
+
+    &__form-agreement {
+      margin-left: 15px;
+    }
+
+    &__agree-text {
+      font-size: 14px;
+      line-height: 1.71;
+      text-align: center;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+}
