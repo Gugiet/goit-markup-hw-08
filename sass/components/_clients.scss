@@ -3,9 +3,9 @@
 
   &__title {
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     text-align: center;
     color: var(--fifth-text-color);
     padding-bottom: 50px;
@@ -80,12 +80,21 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-clients__box a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid #afb1b8 1px;
-    border-radius: 4px;
     width: 226px;
     height: 92px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-clients {
+    &__title {
+      font-size: 36px;
+      line-height: 1.16;
+    }
+
+    .our-clients__box a {
+      width: 170px;
+      height: 92px;
+    }
   }
 }
